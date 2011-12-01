@@ -18,7 +18,6 @@ Gem::Specification.new do |gem|
   gem.version       = DataMapper::SqlserverAdapter::VERSION
 
   gem.add_runtime_dependency('dm-do-adapter', [ '~> 1.3.0.beta' ])
-  gem.add_runtime_dependency('do_sqlserver',     [ '~> 0.10.6'     ])
 
   gem.add_development_dependency('dm-migrations', [ '~> 1.3.0.beta' ])
   gem.add_development_dependency('rake',          [ '~> 0.9.2'      ])

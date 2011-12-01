@@ -4,6 +4,8 @@ source :rubygems
 
 gemspec
 
+gem "do_sqlserver-tinytds" , :git => "git@github.com:jleal/do_sqlserver-tinytds.git"
+
 SOURCE         = ENV.fetch('SOURCE', :git).to_sym
 REPO_POSTFIX   = SOURCE == :path ? ''                                : '.git'
 DATAMAPPER     = SOURCE == :path ? Pathname(__FILE__).dirname.parent : 'http://github.com/datamapper'
