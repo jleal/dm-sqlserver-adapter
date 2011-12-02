@@ -1,4 +1,4 @@
-require 'do_sqlserver-tinytds'
+require 'do_sqlserver_tinytds'
 require 'dm-do-adapter'
 
 DataObjects::Sqlserver = DataObjects::SqlServer
