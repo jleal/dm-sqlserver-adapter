@@ -17,9 +17,9 @@ Gem::Specification.new do |gem|
   gem.require_paths = %w[ lib ]
   gem.version       = DataMapper::SqlserverAdapter::VERSION
 
-  gem.add_runtime_dependency('dm-do-adapter', [ '~> 1.2.0' ])
+  gem.add_runtime_dependency('dm-do-adapter', [ '~> 1.2' ])
 
-  gem.add_development_dependency('dm-migrations', [ '~> 1.2.0' ])
+  gem.add_development_dependency('dm-migrations', [ '~> 1.2' ])
   gem.add_development_dependency('rake',          [ '~> 0.9.2'      ])
   gem.add_development_dependency('rspec',         [ '~> 1.3.2'      ])
 end
